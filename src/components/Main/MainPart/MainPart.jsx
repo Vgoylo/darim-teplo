@@ -78,7 +78,7 @@ function MainPart() {
                 <div className="list-group-item list-group-item-action ">
                   <ul className="nav col-md-8 justify-content list-unstyled d-flex display-5">
                     <div className={s.gain_center}>
-                      <li className="ms-3"><a className="text-decoration-none link-warning" href="viber://chat?number=+375(29)299-99-27">
+                      <li className="ms-3"><a className="text-decoration-none link-warning" href="viber://chat?number=+375(33) 912 22 21">
                         <span className="badge d-flex align-items-center p-0 pe-0 text-secondary-emphasis border-secondary-subtle rounded-pill">
                           <img className="rounded-circle me-1" width="54" height="54" src={logo_viber} alt="viber" />
                         </span></a></li>
@@ -102,15 +102,16 @@ function MainPart() {
 
           <div className="row featurette">
             <div className="col-md-7">
-              <p className='text-center fs-2'><a className="text-decoration-none" href="contacts">Доставкa</a></p>
+              <p className='text-center fs-2'><a className="text-decoration-none" href="delivery">Доставкa</a></p>
               <div>
                 <ul className="">
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> доставку колотых дров по территории Гродно и Гродненской области</li><br></br>
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> минимальный объем заказа от <span className='text-danger'>1-го</span> кубометрa</li><br></br>
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> сроки доставки в среднем 1-3 дня</li><br></br>
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> разгрузка входит в общую стоимость доставки</li><br></br>
-                  <li className="fs-3 list-group-item list-group-item-action"><FcOk /> используются грузовые автомобили вместительностью до 5 кубов (навальных)</li><br></br>
+                  <li className="fs-3 list-group-item list-group-item-action"><FcOk /> используются грузовые автомобили вместительностью до 5 кубов</li><br></br>
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> стоимость доставки зависит от Вашего местоположения</li><br></br>
+                  <a href='#productions'>Продукция</a>
                 </ul>
               </div><br></br>
             </div>

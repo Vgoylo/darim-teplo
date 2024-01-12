@@ -21,9 +21,9 @@ export default function Footer() {
             </div>
             <hr className="border-bottom " />
             <div class="d-flex fs-4 flex-column flex-sm-row justify-content-between py-3 my-4">
-              <p><GiSmallFire />2023 Company Darim Teplo.</p>
+              <p><GiSmallFire />2024 Company Darim Teplo.</p>
               <hr className="featurette-divider" />
-              <ul class="list-unstyled d-flex ">
+              <ul class="list-unstyled d-flex justify-content-center">
                 <SotialNetvork />
                 <li class="ms-3 col-auto d-none d-lg-block"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use href="#twitter"></use></svg></a></li>
                 <li class="ms-3 col-auto d-none d-lg-block"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use href="#instagram"></use></svg></a></li>
