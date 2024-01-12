@@ -1,7 +1,6 @@
 import { FcCallback } from "react-icons/fc";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
-import { FcClock } from "react-icons/fc";
 import s from './Contacts.module.css'
 import logo_kufar from '../../assets/logo/kufar.png'
 
