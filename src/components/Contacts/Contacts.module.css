@@ -1,0 +1,9 @@
+.gain_right{
+  transition: transform 1.5s ease;
+  text-align: left;
+
+}
+.gain_right:hover {
+  transform: scale(0.9); /* Увеличиваем масштаб */
+}
+

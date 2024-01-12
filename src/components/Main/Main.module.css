@@ -1,0 +1,11 @@
+.main {
+  grid-area: main;
+}
+
+.item {
+  color: purple;
+}
+
+.main img{
+  width: 900px;
+}
