@@ -23,8 +23,6 @@ export default function Contacts() {
         </div>
         <li className="fs-3 list-group-item list-group-item-action"><FaMapLocationDot /> 230010, г Гродно, пр-т Клецкова, д. 21, кв. 12</li><br></br>
         <li className="fs-3 list-group-item list-group-item-action"><HiOutlineMail /> info@vsemdrova.by</li><br></br>
-
-        <li className="fs-3 list-group-item list-group-item-action"><FcClock /> Пн-Вс с 09:00 до 21:00</li><br></br>
       </ul>
     </div>
   );
