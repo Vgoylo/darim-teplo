@@ -10,10 +10,10 @@ export default function Contacts() {
       <h1 className="text-center display-4">Наши контакты:</h1><br></br>
       <ul >
         <div className={s.gain_right}>
-          <li className="fs-3 list-group-item list-group-item-action"><FcCallback />  <a className="text-decoration-none" href="tel:+3759(29) 894-63-77">+375 (29) 894-63-77</a></li><br></br>
+          <li className="fs-3 list-group-item list-group-item-action"><FcCallback />  <a className="text-decoration-none" href="tel:+375(29) 894-63-77">+375 (29) 894-63-77</a></li><br></br>
         </div>
         <div className={s.gain_right}>
-          <li className="fs-3 list-group-item list-group-item-action"><FcCallback /> <a className="text-decoration-none" href="tel:+3759(29) 894-63-77">+375 (29) 894-63-77</a></li>
+          <li className="fs-3 list-group-item list-group-item-action"><FcCallback /> <a className="text-decoration-none" href="tel:+375(33) 912 22 21">+375(33) 912-22-21</a></li>
         </div>
         <div className={s.gain_right}>
           <li className="list-group-item pb-1 "><a className="text-decoration-none link-info" href="https://www.kufar.by/customer/U2FsdGVkX19xyUTXCzw-NF5uH7ranWc1ai0amNt-4kA~" target="_blank">

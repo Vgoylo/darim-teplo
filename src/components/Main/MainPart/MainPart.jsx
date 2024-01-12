@@ -3,10 +3,8 @@ import s from './MainPart.module.css'
 import CarouselFadeExample from './CarouselMain';
 import { FcOk } from "react-icons/fc";
 import { FcCallback } from "react-icons/fc";
-import { HiOutlineMail } from "react-icons/hi";
 import { FcClock } from "react-icons/fc";
 import logo_viber from '../../../assets/logo/logo_viber.png'
-import logo_instagram from '../../../assets/logo/logo_instagram.png'
 import logo_telegram from '../../../assets/logo/logo_telegram.png'
 import logo_20_years from '../../../assets/logo/logo_20_yers.jpg'
 import logo_1_cub from '../../../assets/logo/logo_cub.jpg'
@@ -70,19 +68,17 @@ function MainPart() {
                 <p className="text-center fs-2">Вы можете связаться с нами удобным для Вас <span className="text-body-secondary"><a className="text-decoration-none" href="contacts">способом</a></span>:</p>
                 <ul>
                   <div className={s.gain_center}>
-                    <li className="fs-3 list-group-item list-group-item-action"><FcCallback /> <a className="text-decoration-none" href="tel:+3759(29) 894-63-77">+375 (29) 894-63-77</a></li>
-                  </div>
+                    <li className="fs-3 list-group-item list-group-item-action"><FcCallback /> <a className="text-decoration-none" href="tel:+375(29) 894-63-77">+375 (29) 894-63-77</a></li>
+                  </div><br></br>
                   <div className={s.gain_center}>
-                    <li className="fs-3 list-group-item list-group-item-action"><FcCallback /> <a className="text-decoration-none" href="tel:+3759(29) 894-63-77">+375 (29) 894-63-77</a></li><br></br>
-                  </div>
-                  <li className="fs-3 list-group-item list-group-item-action"><HiOutlineMail /> info@vsemdrova.by</li><br></br>
+                    <li className="fs-3 list-group-item list-group-item-action"><FcCallback /> <a className="text-decoration-none" href="tel:+375(33) 912-22-21">+375(33) 912-22-21</a></li>
+                  </div><br></br>
                   <li className="fs-3 list-group-item list-group-item-action"><FcClock /> Пн-Вс с 09:00 до 21:00</li>
-                </ul>
-
+                </ul><br></br>
                 <div className="list-group-item list-group-item-action ">
                   <ul className="nav col-md-8 justify-content list-unstyled d-flex display-5">
                     <div className={s.gain_center}>
-                      <li className="ms-3"><a className="text-decoration-none link-warning" href="viber://call?number=+375(29)299-99-27">
+                      <li className="ms-3"><a className="text-decoration-none link-warning" href="viber://chat?number=+375(29)299-99-27">
                         <span className="badge d-flex align-items-center p-0 pe-0 text-secondary-emphasis border-secondary-subtle rounded-pill">
                           <img className="rounded-circle me-1" width="54" height="54" src={logo_viber} alt="viber" />
                         </span></a></li>
@@ -92,13 +88,6 @@ function MainPart() {
                         <span className="badge d-flex align-items-center p-0 pe-0 text-secondary-emphasis border-secondary-subtle rounded-pill">
                           <img className="rounded-circle me-1" width="54" height="54" src={logo_telegram} alt="telegram" />
                         </span></a></li>
-                    </div>
-                    <div className={s.gain_center}>
-                      <li className="ms-3"><a className="text-decoration-none link-info" href="https://www.instagram.com/vitaliigoilo?igsh=NWQ2d2Z2YjF2bzBn&utm_source=qr">
-                        <span className="badge d-flex align-items-center p-0 pe-0 text-secondary-emphasis  border-secondary-subtle rounded-pill">
-                          <img className="rounded-circle me-1" width="54" height="54" src={logo_instagram} alt="instagrsm" />
-                        </span>
-                      </a></li>
                     </div>
                   </ul>
                 </div>
