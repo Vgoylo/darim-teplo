@@ -1,6 +1,6 @@
 import { FcCallback } from "react-icons/fc";
 import { FaMapLocationDot } from "react-icons/fa6";
-import { HiOutlineMail } from "react-icons/hi";
+import { FcClock } from "react-icons/fc";
 import s from './Contacts.module.css'
 import logo_kufar from '../../assets/logo/kufar.png'
 
@@ -21,7 +21,7 @@ export default function Contacts() {
           </a></li>
         </div>
         <li className="fs-3 list-group-item list-group-item-action"><FaMapLocationDot /> 230010, г Гродно, пр-т Клецкова, д. 21, кв. 12</li><br></br>
-        <li className="fs-3 list-group-item list-group-item-action"><HiOutlineMail /> info@vsemdrova.by</li><br></br>
+        <li className="fs-3 list-group-item list-group-item-action"><FcClock /> Пн-Вс с 09:00 до 21:00</li><br></br>
       </ul>
     </div>
   );
