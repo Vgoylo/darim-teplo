@@ -1,4 +1,3 @@
-
 import React from 'react';
 import MainPart from './MainPart/MainPart';
 
