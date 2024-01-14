@@ -1,9 +1,9 @@
-
 import React from 'react';
 import photFork from '../../assets/images/photo_on_work.jpg'
 import photoDelivery from '../../assets/images/photo_delivery.jpg'
 import photoForest from '../../assets/images/photo_into_forest.jpg'
 import { FcOk } from "react-icons/fc";
+import { HashLink } from "react-router-hash-link";
 
 function Delivery() {
   return (
@@ -54,7 +54,7 @@ function Delivery() {
             </li>
           </ul>
         </div>
-        <main className="container-fluid">
+        <main className="container-fluid" id='top'>
           <p className='text-center display-3'>Доставкa</p>
           <div>
             <ul className="">
@@ -64,13 +64,13 @@ function Delivery() {
               <li className="fs-3 list-group-item list-group-item-action"><FcOk /> разгрузка входит в общую стоимость доставки. Дрова выгружают в месте, позволяющем подъехать машиной</li><br></br>
               <li className="fs-3 list-group-item list-group-item-action"><FcOk /> для доставки используются грузовые автомобили вместительностью до 5 кубов (навальных)</li><br></br>
               <li className="fs-3 list-group-item list-group-item-action"><FcOk /> стоимость доставки зависит от Вашего местоположения</li><br></br>
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> для получения более подробной информации по организации доставки колотых дров, свяжитесь с нами удобным для Вас <a className="text-decoration-none" href="/contacts">способом</a></li>
+              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> для получения более подробной информации по организации доставки колотых дров, свяжитесь с нами удобным для Вас <HashLink to="/contacts#top" className="text-decoration-none">способом</HashLink></li>
             </ul>
           </div><br></br>
           <p className='text-center display-3'>Оплата</p>
           <div>
             <ul className="">
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> oплата осуществляется наличным либо безналичным расчетом (при заказе <a className="text-decoration-none" href="/about-as"> юридическими лицами</a>)</li>
+              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> oплата осуществляется наличным либо безналичным расчетом (при заказе <HashLink to="/about-as#details" className="text-decoration-none">юридическими лицами</HashLink>)</li>
             </ul>
           </div><br></br>
           <div className="row" data-masonry="{&quot;percentPosition&quot;: true }" >
@@ -112,5 +112,3 @@ function Delivery() {
 };
 
 export default Delivery
-
-

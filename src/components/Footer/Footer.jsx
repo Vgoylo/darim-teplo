@@ -2,6 +2,7 @@ import React from 'react';
 import SotialNetvork from '../Netvorks/SotialNetvorks'
 import s from './Footer.module.css'
 import { GiSmallFire } from 'react-icons/gi';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Footer() {
   return (
@@ -12,10 +13,10 @@ export default function Footer() {
             <div class="row">
               <ul class="nav justify-content-center pb-1 mb-5 h2">
                 <li className="nav-item"><a href="main" className="nav-link px-5 text-black">Главная</a></li>
-                <li className="nav-item"><a href="productions" className="nav-link px-5 text-black">Продукция</a></li>
-                <li className="nav-item"><a href="delivery" className="nav-link px-5 text-black">Доставка</a></li>
-                <li className="nav-item"><a href="contacts" className="nav-link px-5 text-black">Контакты</a></li>
-                <li className="nav-item"><a href="about-as" className="nav-link px-5 text-black">О нас</a></li>
+                <li className="nav-item"><HashLink to="/productions#top" className="nav-link px-5 text-black">Продукция</HashLink></li>
+                <li className="nav-item"><HashLink to="/delivery#top" className="nav-link px-5 text-black">Доставка</HashLink></li>
+                <li className="nav-item"><HashLink to="/contacts#top" className="nav-link px-5 text-black">Контакты</HashLink></li>
+                <li className="nav-item"><HashLink to="/about-as#top" className="nav-link px-5 text-black">О нас</HashLink></li>
               </ul>
 
             </div>

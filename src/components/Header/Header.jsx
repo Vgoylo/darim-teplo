@@ -1,9 +1,10 @@
 import React from 'react';
 import s from './Header.module.css';
-import logo_main from '../../assets/logo/logo_main.png'
-import logo_trees from '../../assets/logo/logo_header_trees.png'
-import logo_delivery from '../../assets/logo/logo_header_delivery.png'
-import logo_call from '../../assets/logo/logo_call2.png'
+import logo_main from '../../assets/logo/logo_main.png';
+import logo_trees from '../../assets/logo/logo_header_trees.png';
+import logo_delivery from '../../assets/logo/logo_header_delivery.png';
+import logo_call from '../../assets/logo/logo_call2.png';
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
   return (
@@ -27,22 +28,26 @@ function Header() {
             <span className="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill">
               <img className="rounded-circle me-1 img:hover" width="54" height="54" src={logo_main} alt="logo_main" />Главная
             </span></a>
-          <a className="text-decoration-none link-info" href="productions">
+          <HashLink to="/productions#top" className="text-decoration-none">
             <span className="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill">
               <img className="rounded-circle me-1" width="54" height="54" src={logo_trees} alt="logo_trees" />Продукция
-            </span></a>
-          <a className="text-decoration-none link-info" href="delivery">
+            </span>
+          </HashLink>
+          <HashLink to="/delivery#top" className="text-decoration-none">
             <span className="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill">
               <img className="rounded-circle me-1" width="54" height="54" src={logo_delivery} alt="logo_delivery" />Доставка и оплата
-            </span></a>
-          <a className="text-decoration-none link-info" href="contacts">
+            </span>
+          </HashLink>
+          <HashLink to="/contacts#top" className="text-decoration-none">
             <span className="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill">
               <img className="rounded-circle me-1" width="54" height="54" src={logo_call} alt="logo_call" />Контакты
-            </span></a>
-          <a className="text-decoration-none link-info" href="about-as">
+            </span>
+          </HashLink>
+          <HashLink to="/about-as#top" className="text-decoration-none">
             <span className="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill">
               <img className="rounded-circle me-1" width="54" height="54" src="https://st4.depositphotos.com/5040187/19683/v/450/depositphotos_196837102-stock-illustration-logo-swoosh-ellipse-green-letter.jpg" alt="" />О нас
-            </span></a>
+            </span>
+          </HashLink>
         </nav>
       </div>
     </header>
@@ -50,5 +55,3 @@ function Header() {
 };
 
 export default Header
-
-

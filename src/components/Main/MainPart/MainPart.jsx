@@ -4,15 +4,13 @@ import CarouselFadeExample from './CarouselMain';
 import { FcOk } from "react-icons/fc";
 import { FcCallback } from "react-icons/fc";
 import { FcClock } from "react-icons/fc";
+import { HashLink } from 'react-router-hash-link';
 import logo_viber from '../../../assets/logo/logo_viber.png'
 import logo_telegram from '../../../assets/logo/logo_telegram.png'
-import logo_20_years from '../../../assets/logo/logo_20_yers.jpg'
-import logo_1_cub from '../../../assets/logo/logo_cub.jpg'
-import logo_self_car from '../../../assets/logo/logo_mers.jpg'
-import logo_calculation from '../../../assets/logo/logo_cost.png'
 import photFork from '../../../assets/images/photo_on_work.jpg';
 import photoDelivery from '../../../assets/images/photo_delivery.jpg';
 import photoMainContacnt from '../../../assets/images/main_contacts.jpg'
+import Car from './CarouselSmall';
 
 function MainPart() {
   return (
@@ -23,30 +21,12 @@ function MainPart() {
             < CarouselFadeExample />
           </div>
           <hr className="featurette-divider" />
-          <div className="row text-black">
-            <div className="col-lg-3">
-              <img className="rounded-circle me-1 border border border-secondary-subtle rounded-pill" width="144" height="144" src={logo_20_years} alt="logo_20_years" />
-              <h3 className="fw-normal ">20 лет на рынке</h3>
-            </div>
-            <div className="col-lg-3">
-              <img className="rounded-circle me-1 border border border-secondary-subtle rounded-pill" width="144" height="144" src={logo_1_cub} alt="logo_cub" />
-              <h3 className="fw-normal">Доставка от <span className='text-danger'>1-го</span> кубометрa</h3>
-            </div>
-            <div className="col-lg-3">
-              <img className="rounded-circle me-1 border border border-secondary-subtle rounded-pill" width="144" height="144" src={logo_self_car} alt="mers" />
-              <h3 className="fw-normal">Собственный автопарк</h3>
-            </div>
-            <div className="col-lg-3">
-              <img className="rounded-circle me-1 border border border-secondary-subtle rounded-pill" width="144" height="144" src={logo_calculation} alt="calculation" />
-              <h3 className="fw-normal">Наличный и безналичный расчет</h3>
-            </div>
-          </div>
-
+            <Car />
           <hr className="featurette-divider" />
 
           <div className="row featurette">
             <div className="col-md-7">
-              <p className="featurette-heading fw-normal lh-1 fs-2">Наша <span className="text-body-secondary"><a className="text-decoration-none" href="productions">продукция </a></span>которую мы предлaгаем: </p>
+              <p className="featurette-heading fw-normal lh-1 fs-2">Наша <span className="text-body-secondary"><HashLink to="/productions#top" className="text-decoration-none">продукция</HashLink></span>которую мы предлaгаем: </p>
               <div><br></br>
                 <ul className="">
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> колотые дрова разных пород</li><br></br>
@@ -65,7 +45,7 @@ function MainPart() {
           <div className="row featurette">
             <div className="col-md-7 order-md-2">
               <div className="container-fluid">
-                <p className="text-center fs-2">Вы можете связаться с нами удобным для Вас <span className="text-body-secondary"><a className="text-decoration-none" href="contacts">способом</a></span>:</p>
+                <p className="text-center fs-2">Вы можете связаться с нами удобным для Вас <span className="text-body-secondary"><HashLink to="/contacts#top" className="text-decoration-none" >способом</HashLink></span>:</p>
                 <ul>
                   <div className={s.gain_center}>
                     <li className="fs-3 list-group-item list-group-item-action"><FcCallback /> <a className="text-decoration-none" href="tel:+375(29) 894-63-77">+375 (29) 894-63-77</a></li>
@@ -102,7 +82,7 @@ function MainPart() {
 
           <div className="row featurette">
             <div className="col-md-7">
-              <p className='text-center fs-2'><a className="text-decoration-none" href="delivery">Доставкa</a></p>
+              <p className='text-center fs-2'><HashLink to="/delivery#top" className="text-decoration-none">Доставкa</HashLink></p>
               <div>
                 <ul className="">
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> доставку колотых дров по территории Гродно и Гродненской области</li><br></br>
@@ -111,7 +91,6 @@ function MainPart() {
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> разгрузка входит в общую стоимость доставки</li><br></br>
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> используются грузовые автомобили вместительностью до 5 кубов</li><br></br>
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> стоимость доставки зависит от Вашего местоположения</li><br></br>
-                  <a href='#productions'>Продукция</a>
                 </ul>
               </div><br></br>
             </div>

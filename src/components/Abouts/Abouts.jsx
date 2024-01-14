@@ -9,7 +9,7 @@ function Abouts() {
       <main>
         <div className="d-block p-2">
           <div className="p-2 mb-4 bg-body-white rounded-3">
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-5" id="top">
               <h1 className="display-3 fw-bold text-center">Darim Teplo</h1>
               <p className="lead my-3 fs-3">"DARIM TEPLO" занимается поставкой дров, которые являются самым надёжным и экологическим способом для отопления.
                 В основном, это эксплуатация котлов, печей и других систем сжигания, которые способны использовать дрова для выработки энергии.
@@ -47,7 +47,7 @@ function Abouts() {
             </div>
             <hr className="featurette-divider" />
 
-            <h2 className="display-4  text-center">Реквизиты</h2><br></br>
+            <h2 className="display-4  text-center" id="details">Реквизиты</h2><br></br>
             <ul className='fs-3 text-center'>
               <li className="list-group-item list-group-item-action">ИП Почебыт Геннадий Иванович</li><br></br>
               <li className="list-group-item list-group-item-action">Юридический адрес: Республика Беларусь, 230020, Гродненская область, Октябрьский район, г. Гродно, пр-т Клецкова, д. 21, кв. 12</li><br></br>

@@ -5,11 +5,11 @@ function Productions() {
     <div className={s.main}>
       <main className="container-fluid">
         <div className="p-2 p-md-1 mb-2 rounded text-body-emphasis bg-body-secondary">
-          <div className="container-fluid py-5">
-            <h1 className="display-4 fw-bold fst-italic text-center">Мы готовы предложить</h1>
+          <div className="container-fluid py-5" id='top'>
+            <h1 className="display-4 fw-bold fst-italic text-center" >Мы готовы предложить</h1>
           </div>
         </div>
-        <div className="album py-5 bg-body-tertiary">
+        <div className="album py-5 bg-body-tertiary" >
           <div className="container">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
               <div className="col">
