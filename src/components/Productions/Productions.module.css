@@ -1,14 +1,8 @@
-
 .main {
   color: rgb(255, 255, 255);
 }
 
-/* .main img {
-  width: 80% ;
+.center {
+  display: flex;
+  justify-content: center;
 }
-
-.text{
-  text-align: center;
-  color: whitesmoke;
-  font-size: 30px;
-} */
