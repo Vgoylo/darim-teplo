@@ -17,7 +17,7 @@ function Productions() {
                 <div className="card shadow-sm">
                   <div className="card-body">
                     <div className={s.center}>
-                      <img width="70%" src='https://st9.stpulscen.ru/images/product/141/102/369_original.jpg' />
+                      <img width="75%" src='https://st9.stpulscen.ru/images/product/141/102/369_original.jpg' />
                     </div>
                   </div>
                   <div className="card-body">
@@ -37,7 +37,7 @@ function Productions() {
                 <div className="card shadow-sm">
                   <div className="card-body">
                     <div className={s.center}>
-                      <img width="79%" src='https://m-files.cdnvideo.ru/lpfile/f/5/2/f525e547b3723e36e31c0641b9da57e5/-/resize/600/f.jpeg' />
+                      <img width="85%" src='https://m-files.cdnvideo.ru/lpfile/f/5/2/f525e547b3723e36e31c0641b9da57e5/-/resize/600/f.jpeg' />
                     </div>
                   </div>
                   <div className="card-body">
@@ -59,7 +59,7 @@ function Productions() {
                 <div className="card shadow-sm">
                   <div className="card-body">
                     <div className={s.center}>
-                      <img width="80%" src='https://m-files.cdnvideo.ru/lpfile/f/f/4/ff4294176708554557df5cf905d7b596/-/resize/600/f.jpeg' />
+                      <img width="85%" src='https://m-files.cdnvideo.ru/lpfile/f/f/4/ff4294176708554557df5cf905d7b596/-/resize/600/f.jpeg' />
                     </div>
                   </div>
                   <div className="card-body">
@@ -79,7 +79,7 @@ function Productions() {
                 <div className="card shadow-sm">
                   <div className="card-body">
                     <div className={s.center}>
-                      <img width='80%' src='https://m-files.cdnvideo.ru/lpfile/c/0/8/c086245363520a5cc307098eb2072607/-/resize/600/f.jpeg' />
+                      <img width='85%' src='https://m-files.cdnvideo.ru/lpfile/c/0/8/c086245363520a5cc307098eb2072607/-/resize/600/f.jpeg' />
                     </div>
                   </div>
                   <div className="card-body">

@@ -26,7 +26,7 @@ function MainPart() {
 
           <div className="row featurette">
             <div className="col-md-7">
-              <p className="featurette-heading fw-normal lh-1 fs-2">Наша <span className="text-body-secondary"><HashLink to="/productions#top" className="text-decoration-none">продукция</HashLink></span>которую мы предлaгаем: </p>
+              <p className="featurette-heading fw-normal lh-1 fs-2">Наша <span className="text-body-secondary"><HashLink to="/productions#top" className="text-decoration-none">продукция </HashLink></span>которую мы предлaгаем: </p>
               <div><br></br>
                 <ul className="">
                   <li className="fs-3 list-group-item list-group-item-action"><FcOk /> колотые дрова разных пород</li><br></br>

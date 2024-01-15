@@ -29,7 +29,7 @@ function ReadMoreLess() {
       )}
       <p>
         <button className="btn btn-link text-decoration-none" onClick={toggleReadMoreLess}>
-          {isShowMore ? "Read Less" : "Read More"}
+          {isShowMore ? "Свернуть" : "Читать больше"}
         </button>
       </p>
 

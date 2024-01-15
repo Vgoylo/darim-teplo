@@ -4,6 +4,7 @@ import logo_20_years from '../../../assets/logo/logo_20_yers.jpg'
 import logo_1_cub from '../../../assets/logo/logo_cub.jpg'
 import logo_self_car from '../../../assets/logo/logo_mers.jpg'
 import logo_calculation from '../../../assets/logo/logo_cost.png'
+import { HashLink } from 'react-router-hash-link';
 
 function Car() {
   const responsive = {
@@ -39,7 +40,7 @@ function Car() {
       </div>
       <div className="col-lg-2 text-center">
         <img className="rounded-circle me-1 border border border-secondary-subtle rounded-pill" width="144" height="144" src={logo_calculation} alt="calculation" />
-        <h4 className="fw-normal">Наличный и безналичный расчет</h4>
+        <h4 className="fw-normal">Наличный <HashLink to="/about-as#details" className="text-decoration-none">безналичный </HashLink>расчет </h4>
       </div>
     </Carousel>
   );
