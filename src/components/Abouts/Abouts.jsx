@@ -45,9 +45,9 @@ function Abouts() {
               <li className="list-group-item list-group-item-action">ИП Почебыт Геннадий Иванович</li><br></br>
               <li className="list-group-item list-group-item-action">Юридический адрес: Республика Беларусь, 230020, Гродненская область, Октябрьский район, г. Гродно, пр-т Клецкова, д. 21, кв. 12</li><br></br>
               <li className="list-group-item list-group-item-action">УНП: 591929289</li>
-              <li className="list-group-item list-group-item-action">Р/с: BY47 BAPB 3012 2в64 3001 0000 0в00</li>
-              <li className="list-group-item list-group-item-action">ОАО «Белагропромбанк» г. Минск, пр-т Победителей, д. 91.</li>
-              <li className="list-group-item list-group-item-action">БИК: BыBBY2X</li>
+              <li className="list-group-item list-group-item-action">Р/с: BY90 AKBB 3013 0000 6895 1400 0000</li>
+              <li className="list-group-item list-group-item-action">ОАО АСБ «Беларусбанк» г. Гродно,  ул.Новооктябрьская, 5</li>
+              <li className="list-group-item list-group-item-action">БИК: 591929289</li>
             </ul><br></br>
           </div>
         </div>
