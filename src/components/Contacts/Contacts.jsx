@@ -7,7 +7,7 @@ import logo_kufar from '../../assets/logo/kufar.png'
 export default function Contacts() {
   return (
     <div className="container-fluid" id="top">
-      <h1 className="text-center display-4" activeClassName="contacts">Наши контакты:</h1><br></br>
+      <h1 className="text-center display-4">Наши контакты:</h1><br></br>
       <ul>
         <div className={s.gain_right}>
           <li className="fs-3 list-group-item list-group-item-action"><FcCallback />  <a className="text-decoration-none" href="tel:+375(29) 894-63-77">+375 (29) 894-63-77</a></li><br></br>

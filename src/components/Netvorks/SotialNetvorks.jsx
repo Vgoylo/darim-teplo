@@ -21,7 +21,7 @@ export default function sotialNetvork() {
           </span></a></li>
       </div>
       <div className={s.gain_center}>
-        <li className="ms-3"><a className="text-decoration-none link-info" href="tel:+375(33) 912 22 21">
+        <li className="ms-3"><a className="text-decoration-none link-info" href="tel:+375(29) 894-63-77">
           <span className="badge d-flex align-items-center p-0 pe-0 text-secondary-emphasis  border-secondary-subtle rounded-pill">
             <img className="rounded-circle me-1" width="59" height="59" src={logo_call} alt="" />
           </span>
