@@ -1,9 +1,9 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import logo_20_years from '../../../assets/logo/logo_20_yers.jpg'
-import logo_1_cub from '../../../assets/logo/logo_cub.jpg'
-import logo_self_car from '../../../assets/logo/logo_mers.jpg'
-import logo_calculation from '../../../assets/logo/logo_cost.png'
+import logo_20_years from '../../../assets/logo/logo_20_yers.jpg';
+import logo_self_car from '../../../assets/logo/logo_mers.jpg';
+import logo_calculation from '../../../assets/logo/logo_cost.png';
+import photo2 from '../../../assets/images/photo1.jpg';
 import { HashLink } from 'react-router-hash-link';
 
 function Car() {
@@ -31,7 +31,7 @@ function Car() {
         <h3 className="fw-normal ">20 лет на рынке</h3>
       </div>
       <div className="col-lg-4 text-center">
-        <img className="rounded-circle me-1 border border border-secondary-subtle rounded-pill" width="144" height="144" src={logo_1_cub} alt="logo_cub" />
+        <img className="rounded-circle me-1 border border border-secondary-subtle rounded-pill" width="144" height="144" src={photo2} alt="logo_cub" />
         <h4 className="fw-normal">Доставка от <span className='text-danger'>1-го</span> кубометрa</h4>
       </div>
       <div className="col-lg-3 text-center">

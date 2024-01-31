@@ -1,5 +1,4 @@
 import s from './Productions.module.css';
-import photoForest from '../../assets/images/photo_into_forest.jpg'
 
 function Productions() {
   return (
