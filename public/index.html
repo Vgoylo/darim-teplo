@@ -41,5 +41,10 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
+    <!-- When using the HTML implementation the @vercel/analytics -->
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
   </body>
 </html>
