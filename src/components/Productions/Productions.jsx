@@ -27,7 +27,7 @@ function Productions() {
                       потребителей в дачных кооперативах, при
                       использовании в мангале для жарки
                       найвкуснейшего шашлыка, топки бани и сауны.
-                      <div className="text-success">Стоимость за 1м(3) 65 BYN</div>
+                      <div className="text-success">Стоимость за 1м(3) уточняйте при оформлении заявки</div>
                     </ul></p>
                   </div>
                 </div>
@@ -48,7 +48,7 @@ function Productions() {
                       котлов и каминов.
                       Идеальное соотношение
                       цена-качество.
-                      <div className="text-success">Стоимость за 1м(3) 60 BYN</div>
+                      <div className="text-success">Стоимость за 1м(3) уточняйте при оформлении заявки</div>
                     </ul></p>
                     <div className="list-group-item list-group-item-action">
                     </div>
@@ -70,7 +70,7 @@ function Productions() {
                       минимальным количеством дыма, <span className="text-decoration-underline">за что и
                         нареклись в народе "царскими" дровами</span>, так как
                       использовались при топке царской бани по черному.
-                      <div className="text-success">Стоимость за 1м(3) 60 BYN</div>
+                      <div className="text-success">Стоимость за 1м(3) уточняйте при оформлении заявки</div>
                     </ul></p>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ function Productions() {
                       Дрова хвойных пород имеют высокий коэффициент теплоотдачи,
                       дают большое количество жара, распространяя непередаваемый смолистый запах.
                       Тонизирующе воздействуют на дыхательные органы.
-                      <div className="text-success">Стоимость за 1м(3) 50 BYN</div>
+                      <div className="text-success">Стоимость за 1м(3) уточняйте при оформлении заявки</div>
                       <small className="text-body-secondary fs-6">( * уточнение по наличию при заказе)</small>
                     </ul></p>
                   </div>
