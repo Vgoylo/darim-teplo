@@ -1,7 +1,7 @@
-import React from 'react';
-import photFork from '../../assets/images/photo_on_work.jpg'
-import photoDelivery from '../../assets/images/photo_delivery.jpg'
-import photoForest from '../../assets/images/photo_into_forest.jpg'
+import React from "react";
+import photFork from "../../assets/images/photo_on_work.jpg";
+import photoDelivery from "../../assets/images/photo_delivery.jpg";
+import photoForest from "../../assets/images/photo_into_forest.jpg";
 import { FcOk } from "react-icons/fc";
 import { HashLink } from "react-router-hash-link";
 
@@ -26,89 +26,210 @@ function Delivery() {
         </svg>
 
         <div className="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-          <button className="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (dark)">
-            <svg className="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-            <span className="visually-hidden" id="bd-theme-text">Toggle theme</span>
+          <button
+            className="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+            id="bd-theme"
+            type="button"
+            aria-expanded="false"
+            data-bs-toggle="dropdown"
+            aria-label="Toggle theme (dark)"
+          >
+            <svg className="bi my-1 theme-icon-active" width="1em" height="1em">
+              <use href="#moon-stars-fill"></use>
+            </svg>
+            <span className="visually-hidden" id="bd-theme-text">
+              Toggle theme
+            </span>
           </button>
-          <ul className="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+          <ul
+            className="dropdown-menu dropdown-menu-end shadow"
+            aria-labelledby="bd-theme-text"
+          >
             <li>
-              <button type="button" className="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-                <svg className="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+              <button
+                type="button"
+                className="dropdown-item d-flex align-items-center"
+                data-bs-theme-value="light"
+                aria-pressed="false"
+              >
+                <svg
+                  className="bi me-2 opacity-50 theme-icon"
+                  width="1em"
+                  height="1em"
+                >
+                  <use href="#sun-fill"></use>
+                </svg>
                 Light
-                <svg className="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                <svg className="bi ms-auto d-none" width="1em" height="1em">
+                  <use href="#check2"></use>
+                </svg>
               </button>
             </li>
             <li>
-              <button type="button" className="dropdown-item d-flex align-items-center active" data-bs-theme-value="dark" aria-pressed="true">
-                <svg className="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+              <button
+                type="button"
+                className="dropdown-item d-flex align-items-center active"
+                data-bs-theme-value="dark"
+                aria-pressed="true"
+              >
+                <svg
+                  className="bi me-2 opacity-50 theme-icon"
+                  width="1em"
+                  height="1em"
+                >
+                  <use href="#moon-stars-fill"></use>
+                </svg>
                 Dark
-                <svg className="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                <svg className="bi ms-auto d-none" width="1em" height="1em">
+                  <use href="#check2"></use>
+                </svg>
               </button>
             </li>
             <li>
-              <button type="button" className="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
-                <svg className="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+              <button
+                type="button"
+                className="dropdown-item d-flex align-items-center"
+                data-bs-theme-value="auto"
+                aria-pressed="false"
+              >
+                <svg
+                  className="bi me-2 opacity-50 theme-icon"
+                  width="1em"
+                  height="1em"
+                >
+                  <use href="#circle-half"></use>
+                </svg>
                 Auto
-                <svg className="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                <svg className="bi ms-auto d-none" width="1em" height="1em">
+                  <use href="#check2"></use>
+                </svg>
               </button>
             </li>
           </ul>
         </div>
-        <main className="container-fluid" id='top'>
-          <p className='text-center display-3'>Доставкa</p>
+        <main className="container-fluid" id="top">
+          <p className="text-center display-3">Доставкa</p>
           <div>
             <ul className="">
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> осуществляем оперативную доставку колотых дров по территории Гродно и Гродненской области</li><br></br>
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> oбратите внимание, минимальный объем заказа от <span className='text-danger'>1-го</span> кубометрa</li><br></br>
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> сроки доставки оговариваются индивидуально, в среднем 1-3 дня</li><br></br>
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> разгрузка входит в общую стоимость доставки. Дрова выгружают в месте, позволяющем подъехать машиной</li><br></br>
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> для доставки используются грузовые автомобили вместительностью до 5 кубов (навальных)</li><br></br>
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> стоимость доставки зависит от Вашего местоположения</li><br></br>
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> для получения более подробной информации по организации доставки колотых дров, свяжитесь с нами удобным для Вас <HashLink to="/contacts#top" className="text-decoration-none">способом</HashLink></li>
+              <li className="fs-3 list-group-item list-group-item-action">
+                <FcOk /> осуществляем оперативную доставку колотых дров по
+                территории Гродно и Гродненской области
+              </li>
+              <br></br>
+              <li className="fs-3 list-group-item list-group-item-action">
+                <FcOk /> oбратите внимание, минимальный объем заказа от{" "}
+                <span className="text-danger">1-го</span> кубометрa
+              </li>
+              <br></br>
+              <li className="fs-3 list-group-item list-group-item-action">
+                <FcOk /> сроки доставки оговариваются индивидуально, в среднем
+                1-3 дня
+              </li>
+              <br></br>
+              <li className="fs-3 list-group-item list-group-item-action">
+                <FcOk /> разгрузка входит в общую стоимость доставки. Дрова
+                выгружают в месте, позволяющем подъехать машиной
+              </li>
+              <br></br>
+              <li className="fs-3 list-group-item list-group-item-action">
+                <FcOk /> для доставки используются грузовые автомобили
+                вместительностью до 5 кубов (навальных)
+              </li>
+              <br></br>
+              <li className="fs-3 list-group-item list-group-item-action">
+                <FcOk /> стоимость доставки зависит от Вашего местоположения
+              </li>
+              <br></br>
+              <li className="fs-3 list-group-item list-group-item-action">
+                <FcOk /> для получения более подробной информации по организации
+                доставки колотых дров, свяжитесь с нами удобным для Вас{" "}
+                <HashLink to="/contacts#top" className="text-decoration-none">
+                  способом
+                </HashLink>
+              </li>
             </ul>
-          </div><br></br>
-          <p className='text-center display-3'>Оплата</p>
+          </div>
+          <br></br>
+          <p className="text-center display-3">Оплата</p>
           <div>
             <ul className="">
-              <li className="fs-3 list-group-item list-group-item-action"><FcOk /> oплата осуществляется наличным либо безналичным расчетом (при заказе <HashLink to="/about-as#details" className="text-decoration-none">юридическими лицами</HashLink>)</li>
+              <li className="fs-3 list-group-item list-group-item-action">
+                <FcOk /> oплата осуществляется наличным либо безналичным
+                расчетом (при заказе{" "}
+                <HashLink
+                  to="/about-as#details"
+                  className="text-decoration-none"
+                >
+                  юридическими лицами
+                </HashLink>
+                )
+              </li>
             </ul>
-          </div><br></br>
-          <div className="row" data-masonry="{&quot;percentPosition&quot;: true }" >
-            <div className="col-sm-6 col-lg-4 mb-4" >
+          </div>
+          <br></br>
+          <div className="row" data-masonry='{"percentPosition": true }'>
+            <div className="col-sm-6 col-lg-4 mb-4">
               <div className="card">
-                <img src={photFork} width="100%" height="620" alt="Here should be photo is trees" />
+                <img
+                  src={photFork}
+                  width="100%"
+                  height="620"
+                  alt="Here should be photo is trees"
+                />
               </div>
             </div>
             <div className="col-sm-6 col-lg-4 mb-4">
               <div className="card">
-                <img src={photoDelivery} width="100%" height="460" alt="Here should be photo is trees" />
+                <img
+                  src={photoDelivery}
+                  width="100%"
+                  height="460"
+                  alt="Here should be photo is trees"
+                />
                 <div className="card-body">
-                  <h5 className="card-title">Выгрузка в удобном для вас месте</h5><br></br>
+                  <h5 className="card-title">
+                    Выгрузка в удобном для вас месте
+                  </h5>
+                  <br></br>
                   <figcaption className="blockquote-footer mb-0 text-body-secondary text-center">
                     <cite title="Source Title">Darim Teplo</cite>
                   </figcaption>
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-lg-4 mb-4" >
+            <div className="col-sm-6 col-lg-4 mb-4">
               <div className="card text-center">
                 <div className="card-body">
-                  <img src={photoForest} width="100%" height="360" alt="Here should be photo is trees" />
-                  <p className="card-title fs-3">Дрова пиленные в чурках</p><br></br>
+                  <img
+                    src={photoForest}
+                    width="100%"
+                    height="360"
+                    alt="Here should be photo is trees"
+                  />
+                  <p className="card-title fs-3">Дрова пиленные в чурках</p>
+                  <br></br>
                   <figcaption className="blockquote-footer mb-0 text-body-secondary">
                     <cite title="Source Title">Darim Teplo</cite>
                   </figcaption>
                 </div>
               </div>
             </div>
-
           </div>
         </main>
-        <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <script async="" src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+        <script
+          src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          async=""
+          src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+          integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+          crossorigin="anonymous"
+        ></script>
       </body>
     </div>
   );
-};
+}
 
-export default Delivery
+export default Delivery;

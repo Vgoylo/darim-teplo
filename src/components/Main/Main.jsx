@@ -1,10 +1,8 @@
-import React from 'react';
-import MainPart from './MainPart/MainPart';
+import React from "react";
+import MainPart from "./MainPart/MainPart";
 
 function Main() {
-  return (
-    <MainPart />
-  );
-};
+  return <MainPart />;
+}
 
-export default Main
+export default Main;
